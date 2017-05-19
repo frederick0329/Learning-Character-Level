@@ -8,4 +8,4 @@ python preprocess.py -l LANG
 ```
 optional arguments:
 
--l LANG, --lang LANG which language to crawl [zh_simplified, zh_traditional, ja, ko]
+-l LANG, --lang LANG which language to generate preprocessed t7 [zh_simplified, zh_traditional, ja, ko]
