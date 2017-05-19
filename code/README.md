@@ -8,12 +8,12 @@ Training
 
 For text
 ```
-th doall.lua -data_path [preprocessed folder] -model_path [model_folder_path]
+th doall.lua -data_path [preprocessed folder] -model_path [model_folder_path] -gpu_id 1
 ```
 
 For image
 ```
-th doall.lua -data_path [preprocessed folder] -model_path [model_folder_path] -img
+th doall.lua -data_path [preprocessed folder] -model_path [model_folder_path] -img -gpu_id 1
 ```
 
 Testing
